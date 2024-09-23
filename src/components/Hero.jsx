@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Hero from '../assets/Hero.jpg'
 
 const Hero = () => {
   return (
-    <section className='bg-hero-pattern bg-cover bg-center h-screen flex flex-col justify-center items-center text-center'>
+    <section className='bg-cover bg-center h-screen flex flex-col justify-center items-center text-center'
+    style={{ backgroundImage: `url(${Hero})` }}
+    >
         <h1 className='text-6xl font-bold text-white mb-6'>
             Bring Your Ideas to Life 
         </h1>
