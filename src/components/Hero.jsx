@@ -1,10 +1,10 @@
 import React from 'react';
-import Hero from '../assets/Hero.jpg'
+import BgImage from '../assets/bg-image.jpg'
 
 const Hero = () => {
   return (
     <section className='bg-cover bg-center h-screen flex flex-col justify-center items-center text-center'
-    style={{ backgroundImage: `url(${Hero})` }}
+    style={{ backgroundImage: `url(${BgImage})` }}
     >
         <h1 className='text-6xl font-bold text-white mb-6'>
             Bring Your Ideas to Life 
